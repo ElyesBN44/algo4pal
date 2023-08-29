@@ -1,0 +1,28 @@
+ALGORITHM palindrome
+VAR
+    mot:STRING
+    test:BOOLEAN
+    i=INTEGER
+BEGIN
+    length=length(mot)
+    fin=length-1
+    test=true
+    WHILE (fin>0) DO:
+    IF (mot[0]!=mot[fin]) THEN
+    test=false
+    write("ce n'est pas un palindrome")    
+    END_IF
+    0=0+1
+    fin=fin-1    
+    END_WHILE 
+    test=true
+    write("c'est un palindrome")
+END
+
+//tab[content]  => conteue de la case 
+
+//content how l'index el indique il va aider fil 
+
+phhp 
+p0  p3
+h1 h2
